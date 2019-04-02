@@ -1,14 +1,13 @@
-describe "Fizz Buzz Tests" 
-do 
-  def fizz_buzz (number)
+def fizzbuzz (number)
     if number%15==0
-      puts ("FizzBuzz")
-    elsif number%3==0
-      puts ("Fizz")
+      return "FizzBuzz"
+    end 
+    if number%3==0
+      return "Fizz"
     elsif number%5==0
-      puts ("Buzz")
+      return "Buzz"
     else
-      puts (number)
+      return nil
   end
  end
- end
+ 
