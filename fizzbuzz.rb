@@ -1,9 +1,11 @@
-def fizzbuzz(int)
-  if int % 15 == 0
-    "FizzBuzz"
-  elseif int % 3 == 0
-    "Fizz"
-  elseif int % 5 == 0
-"Buzz"
-end
-end
+def fizz_buzz (number)
+    if number%3==0&&number%5==0
+      puts ("FizzBuzz")
+    elsif number%3==0
+      puts ("Fizz")
+    elsif number%5==0
+      puts ("Buzz")
+    else
+      puts (number)
+  end
+ end
